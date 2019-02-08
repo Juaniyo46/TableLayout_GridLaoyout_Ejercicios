@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/editor/ic_monetization_on_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_event_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -29,9 +29,9 @@
                         <option name="values">
                           <map>
                             <entry key="height" value="100" />
-                            <entry key="outputName" value="money" />
+                            <entry key="outputName" value="evento" />
                             <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="C:\Users\alumno_fp" />
+                            <entry key="sourceFile" value="$USER_HOME$/Downloads/prescription.svg" />
                             <entry key="width" value="100" />
                           </map>
                         </option>

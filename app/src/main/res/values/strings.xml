@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Ejercicio TableLayout GridLayout</string>
+    <string name="medico">Reporte Medico</string>
+    <string name="gastos">Gastos</string>
+    <string name="Diario">Plan Diario</string>
+    <string name="vacaciones">Vacaciones</string>
+    <string name="reunion">Reuniones</string>
+    <string name="eventos">Eventos</string>
 </resources>
