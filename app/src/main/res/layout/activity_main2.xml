@@ -1,182 +1,238 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Main2Activity"
-    android:columnCount="2"
-    android:rowCount="10"
-    android:paddingHorizontal="20dp">
+    android:orientation="vertical"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:paddingHorizontal="40dp"
+        android:rowCount="10">
 
-    <LinearLayout
-        android:background="@drawable/input4"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_gravity="start">
 
-        <ImageView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/money"
-            android:padding="20dp"/>
-        <TextView
+            android:layout_gravity="start"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input4"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:src="@drawable/money" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/gastos"
+                android:textColor="@color/verdeclaro"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/gastos"
-            android:layout_gravity="center"
-            android:textSize="20dp"
-            android:textColor="@color/verdeclaro"
-            android:textStyle="bold"/>
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input4"
+            android:orientation="vertical">
 
-    </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:src="@drawable/calendar" />/>
 
-    <LinearLayout
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_gravity="end"
-        android:background="@drawable/input4">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/Diario"
+                android:textColor="@color/verdeclaro"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
-        <ImageView
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/calendar"
-            android:padding="20dp"/>/>
-        <TextView
+            android:layout_gravity="start"
+            android:background="@drawable/input4"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:src="@drawable/medico" />/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/medico"
+                android:textColor="@color/verdeclaro"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Diario"
-            android:layout_gravity="center"
-            android:textSize="20dp"
-            android:textColor="@color/verdeclaro"
-            android:textStyle="bold"
-            />
+            android:layout_gravity="end"
+            android:background="@drawable/input4"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
 
-    </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:src="@drawable/vacances" />/>
 
-    <LinearLayout
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_gravity="start"
-        android:background="@drawable/input4">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/vacaciones"
+                android:textColor="@color/verdeclaro"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
-        <ImageView
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/medico"
-            android:padding="20dp"/>/>
-        <TextView
+            android:layout_gravity="start"
+            android:background="@drawable/input4"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:src="@drawable/reunion" />/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/reunion"
+                android:textColor="@color/verdeclaro"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/medico"
-            android:layout_gravity="center"
-            android:textSize="18dp"
-            android:textColor="@color/verdeclaro"
-            android:textStyle="bold"
-            />
+            android:layout_gravity="end"
+            android:background="@drawable/input4"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
 
-    </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:src="@drawable/evento" />/>
 
-    <LinearLayout
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_gravity="end"
-        android:background="@drawable/input4">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/eventos"
+                android:textColor="@color/verdeclaro"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
-        <ImageView
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/vacances"
-            android:padding="20dp"/>/>
-        <TextView
+            android:layout_gravity="start"
+            android:background="@drawable/input4"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:src="@drawable/calendario" />/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/calendario"
+                android:textColor="@color/verdeclaro"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/vacaciones"
-            android:layout_gravity="center"
-            android:textSize="20dp"
-            android:textColor="@color/verdeclaro"
-            android:textStyle="bold"
-            />
+            android:layout_gravity="end"
+            android:background="@drawable/input4"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
 
-    </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:src="@drawable/mensaje" />/>
 
-    <LinearLayout
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_gravity="start"
-        android:background="@drawable/input4">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/mensaje"
+                android:textColor="@color/verdeclaro"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
-        <ImageView
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/reunion"
-            android:padding="20dp"/>/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/reunion"
-            android:layout_gravity="center"
-            android:textSize="20dp"
-            android:textColor="@color/verdeclaro"
-            android:textStyle="bold"
-            />
+            android:layout_marginTop="10dp">
 
-    </LinearLayout>
+            <Button
+                android:id="@+id/atras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atras"
+                />
 
-    <LinearLayout
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_gravity="end"
-        android:background="@drawable/input4">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/evento"
-            android:padding="20dp"/>/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/eventos"
-            android:layout_gravity="center"
-            android:textSize="20dp"
-            android:textColor="@color/verdeclaro"
-            android:textStyle="bold"
-            />
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        >
-
-        <Button
-            android:id="@+id/atras"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Atras" />
-
-    </LinearLayout>
+        </LinearLayout>
+    </GridLayout>
+</ScrollView>
+</LinearLayout>
 
 
-
-
-</GridLayout>

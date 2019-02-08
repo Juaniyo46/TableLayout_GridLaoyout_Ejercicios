@@ -6,4 +6,6 @@
     <string name="vacaciones">Vacaciones</string>
     <string name="reunion">Reuniones</string>
     <string name="eventos">Eventos</string>
+    <string name="calendario">Calendario</string>
+    <string name="mensaje">Mensajes</string>
 </resources>
